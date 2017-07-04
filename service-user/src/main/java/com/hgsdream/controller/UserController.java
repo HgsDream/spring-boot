@@ -1,10 +1,9 @@
 package com.hgsdream.controller;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import javax.ws.rs.GET;
 
 /**
  * Created by Hong on 2017/7/4.
@@ -22,8 +21,13 @@ public class UserController {
         return "the info ="+info;
     }
 
-    @PostMapping(value = "register")
+    @PostMapping(value = "/user/register")
     public String register(){
          return "1";
+    }
+
+    @GetMapping(value = "/user/information")
+    public String information(){
+        return "2";
     }
 }
