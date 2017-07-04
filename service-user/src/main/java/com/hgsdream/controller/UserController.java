@@ -28,6 +28,8 @@ public class UserController {
 
     @GetMapping(value = "/user/information")
     public String information(){
+        String name = "hello";
         return "2";
     }
+
 }
