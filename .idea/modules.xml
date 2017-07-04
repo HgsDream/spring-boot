@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/server-eurnka/server-eurnka.iml" filepath="$PROJECT_DIR$/server-eurnka/server-eurnka.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-hi/service-hi.iml" filepath="$PROJECT_DIR$/service-hi/service-hi.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-user/service-user.iml" filepath="$PROJECT_DIR$/service-user/service-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
     </modules>
   </component>
