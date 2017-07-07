@@ -7,3 +7,13 @@ server:
 spring:
   application:
     name: service-user
+  # DATASOURCE
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/hongzehong?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: hong123456
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.hgsdream.entity
